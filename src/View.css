@@ -28,7 +28,7 @@
   width: 18%;
   height: -moz-fit-content;
   height: fit-content;
-  border: 2px solid black;
+  border: 2px solid rgba(62, 62, 62, 0.422);
   border-radius: 20px;
   display: flex;
   flex-direction: column;

@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  font-size: large;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  padding: 0.8rem 2rem;
+   position: sticky;  
+  top: 0%;  
+
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  h1 {
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  nav {
+    a {
+      margin: 1.2rem;
+      padding: 0.3rem;
+      overflow-x: hidden;
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    a:hover {
+      border-bottom: 0.2rem solid #cdedfa;
+    }
+  }
+}
+
+
+.page1{
+  width: 100%;
+  aspect-ratio: 16/8;
+ background-size: cover;
+  background: linear-gradient(
+    110deg,
+    rgba(8, 0, 255, 0.843),
+    rgba(8, 0, 255, 0.531),
+    rgba(8, 0, 255, 0.345),
+    rgba(234, 250, 255, 0.846)
+  );
+}
+.page-1 {
+  width: 100%;
+  padding: 2rem 6rem;
+  letter-spacing: 1.5px;
+   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  display:flex;
+  
+}
+.p1{
+  width: 50%; 
+  align-items: center;
+  padding: 1.8rem ;
+}
+h2 {
+  width: 70%;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #fff;
+}
+.p2{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.photu {
+  width: 22rem;
+  background-position: center;
+
+  background-size: cover;    
+  /* background-color: black; */
+  background-image: url('https://images.unsplash.com/photo-1618568949779-895d81686151?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YSUyMGJ1c2luZXNzJTIwbWFuJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D');
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+p{
+  padding:.7rem 0 ;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+button{
+  padding: 0.5rem 1.3rem;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin: 1rem 1.4rem;
+
+  font-weight: 500;
+  color: #fff;
+  background-color: #453fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+button:hover {
+  background-color:#1611b8;
+}
+.btn2{
+  border: 1.5px solid #ffffff9b;
+  background-color: #8c89dc65;
+  backdrop-filter: blur(10px);
+  color: #fff;
+
+}

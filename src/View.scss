@@ -1,6 +1,6 @@
 .view3 {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16/8;
   background-size: cover;
   background: linear-gradient(
     110deg,
@@ -58,11 +58,11 @@
   }
 }
 footer {
-  // height: 1rem;
   display: flex;
   flex-direction: column;
+  // height: 1rem;
   //  align-items: center;
-  // padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   justify-content: center;
   p {
@@ -70,5 +70,73 @@ footer {
     font-size: 1rem;
     font-weight: 500;
     opacity: 0.7;
+  }
+}
+
+.View4 {
+  width: 100%;
+  aspect-ratio: 16/6.5;
+  color: black;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  padding: 5rem 6.7rem;
+  .m1 {
+    width: 50%;
+  }
+  h1 {
+    font-size: 2.3rem;
+    font-weight: 600;
+  }
+
+  form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-shadow: 0 0 20px rgba(62, 63, 68, 0.478);
+
+    .sub {
+      width: 70%;
+      margin-top: 1.8rem;
+      border: 1.5px solid #8c89dc65;
+      background-color: #ffffff9b;
+      color: #8c89dc65;
+    }
+    button:hover {
+      background-color: #453fffd3;
+      color: #ffffff9b;
+      transform: scale(0.99);
+    }
+  }
+
+  .inpt {
+    border-radius: 4px;
+    backdrop-filter: blur(10px);
+    padding: 2px 15px;
+    margin: 0.4rem;
+    width: 80%;
+    border: 2px solid rgba(62, 62, 62, 0.422);
+  }
+  .inpt:focus {
+  outline: none;
+  border: 2px solid #4b6cb7;
+  box-shadow: 0 0 5px rgba(75, 108, 183, 0.5);
+}
+
+  .social {
+    padding-top: 1rem;
+    i {
+      padding: 2px;
+      letter-spacing: 0.95rem;
+      font-size: 2rem;
+      color: #453fffd3;
+      background-color: white;
+    }
+    i:hover {
+      cursor: pointer;
+    }
   }
 }

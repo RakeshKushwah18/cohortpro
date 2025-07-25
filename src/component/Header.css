@@ -115,6 +115,7 @@ button{
 }
 button:hover {
   background-color:#1611b8;
+  transform: scaleX(0.97);
 }
 .btn2{
   border: 1.5px solid #ffffff9b;

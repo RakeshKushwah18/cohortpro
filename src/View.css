@@ -1,6 +1,6 @@
 .view3 {
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16/8;
   background-size: cover;
   background: linear-gradient(110deg, rgba(8, 0, 255, 0.531), rgba(8, 0, 255, 0.345), rgba(234, 250, 255, 0.846));
   color: black;
@@ -56,6 +56,7 @@
 footer {
   display: flex;
   flex-direction: column;
+  padding: 0.5rem;
   text-align: center;
   justify-content: center;
 }
@@ -64,4 +65,69 @@ footer p {
   font-size: 1rem;
   font-weight: 500;
   opacity: 0.7;
+}
+
+.View4 {
+  width: 100%;
+  aspect-ratio: 16/6.5;
+  color: black;
+  letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  padding: 5rem 6.7rem;
+}
+.View4 .m1 {
+  width: 50%;
+}
+.View4 h1 {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+.View4 form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-shadow: 0 0 20px rgba(62, 63, 68, 0.478);
+}
+.View4 form .sub {
+  width: 70%;
+  margin-top: 1.8rem;
+  border: 1.5px solid rgba(140, 137, 220, 0.3960784314);
+  background-color: rgba(255, 255, 255, 0.6078431373);
+  color: rgba(140, 137, 220, 0.3960784314);
+}
+.View4 form button:hover {
+  background-color: rgba(69, 63, 255, 0.8274509804);
+  color: rgba(255, 255, 255, 0.6078431373);
+  transform: scale(0.99);
+}
+.View4 .inpt {
+  border-radius: 4px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 2px 15px;
+  margin: 0.4rem;
+  width: 80%;
+  border: 2px solid rgba(62, 62, 62, 0.422);
+}
+.View4 .inpt:focus {
+  outline: none;
+  border: 2px solid #4b6cb7;
+  box-shadow: 0 0 5px rgba(75, 108, 183, 0.5);
+}
+.View4 .social {
+  padding-top: 1rem;
+}
+.View4 .social i {
+  padding: 2px;
+  letter-spacing: 0.95rem;
+  font-size: 2rem;
+  color: rgba(69, 63, 255, 0.8274509804);
+  background-color: white;
+}
+.View4 .social i:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=View.css.map */

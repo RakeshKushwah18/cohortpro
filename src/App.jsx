@@ -5,6 +5,7 @@ import './App.css'
 import View1 from './View1'
 import View2 from './View2'
 import View3 from './View3'
+import View4 from './View4'
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
    
     <View1/>
     <View2/>
-    <View3 />
+    <View3/>
+    <View4/>
        
    </>
   )

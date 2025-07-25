@@ -35,8 +35,7 @@ const View3 = () => {
             </div>
         </div>
     </div>
-    {/* <hr /> */}
-    <footer><p> copyright © 2025 Brand Pvt.Ltd. <br />All Right Reserved</p></footer>
+    
    </>
   )
 }
